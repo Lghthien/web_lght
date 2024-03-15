@@ -1,0 +1,21 @@
+h1 {
+    color: #8A2BE2;
+    position: relative;
+    text-align: center;
+}
+
+hr {
+    color: #0000FF;
+}
+
+button {
+    border-radius: 30px;
+    background: white;
+    width: 100px;
+    height: 25px;
+    align-items: center;
+}
+
+table {
+    text-align: center;
+}
