@@ -1,11 +1,26 @@
+table {
+    height: auto;
+}
+
 h1 {
     color: #8A2BE2;
     position: relative;
     text-align: center;
 }
 
+td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    color: black;
+}
+
 hr {
-    color: #0000FF;
+    border: solid #0000FF;
+    size: 2px;
+    width: 460px;
 }
 
 button {
@@ -13,9 +28,15 @@ button {
     background: white;
     width: 100px;
     height: 25px;
-    align-items: center;
 }
 
-table {
+p {
     text-align: center;
+}
+
+.tongthe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }

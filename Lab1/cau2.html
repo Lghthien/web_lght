@@ -2,36 +2,50 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cau2.css" />
     <meta name="description" content="First website" />
-    <meta name="developer" content="Thien" />
-    <link rel="stylesheet" href="cau2.css">
-    <title>Giới thiệu mèo</title>
+    <meta name="developer" content="Quỳnh" />
+    <title>Đăng nhập hệ thống</title>
 </head>
 
 <body>
-    <h1>Đăng nhập hệ thống</h1>
-    <hr>
-    <div>
-        <form>
-            <table>
-                <tr>
-                    <th><label>Tên đăng nhập</label></th>
-                    <th><input type="text" id="name" name="name" placeholder="Nhập tên"></th>
-                </tr>
-                <tr>
-                    <th><label>Mật khẩu</label></th>
-                    <th><input type="text" id="password" name="pw" placeholder="Mật khẩu"></th>
-                </tr>
-                <tr>
-                    <th><button>Đăng nhập</button></th>
-                </tr>
-            </table>
-        </form>
+    <div class="tongthe">
+        <center>
+            <div>
+                <h1>Đăng nhập hệ thống</h1>
+                <hr>
+                <div class="input-form">
+                    <form>
+                        <table>
+                            <tr>
+                                <td>Tên đăng nhập</td>
+                                <td>
+                                    <input type="text" name="txtname" value="" placeholder="nhập tên"><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mật khẩu</td>
+                                <td>
+                                    <input type="password" name="txtpass" value="" placeholder="nhập mã số"><br>
+                                </td>
+                            </tr>
+                            <!-- <tr>
+                                <td>&nbsp</td>
+                                <td>
+                                    <button type="submit">Đăng nhập</button>
+                                </td>
+                            </tr> -->
+                        </table>
+                    </form>
+                    <br>
+                    <button type="submit">Đăng nhập</button>
+                </div>
+                <div id="haha">
+                    <p><i><a>Quên mật khẩu</a> / <a>Đăng ký</a></i></p>
+                </div>
+                <hr>
+            </div>
+        </center>
     </div>
-    <div class="links">
-        <a href="#">Quên mật khẩu</a> | <a href="#">Đăng ký</a>
-    </div>
-    <hr>
 </body>
-
-</html>
